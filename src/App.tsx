@@ -28,7 +28,7 @@ const App: React.FC = () => {
       </div>
       <div className="model-viewer-container">
         { /* @ts-expect-error - model-viewer is not a valid HTML element, but it is a valid custom element */}
-        <model-viewer src={foxModel} alt="A 3D model of a fox" ar camera-controls autoplay />
+        <model-viewer src={foxModel} alt="A 3D model of a fox" camera-controls autoplay />
       </div>
     </>
   )
